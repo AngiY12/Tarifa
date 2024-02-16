@@ -4,6 +4,8 @@
 
 package com.mycompany.tarifa;
 
+import frontend.Pasajes;
+
 /**
  *
  * @author labctr
@@ -11,6 +13,8 @@ package com.mycompany.tarifa;
 public class Tarifa {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Pasajes pasajes = new Pasajes();
+        pasajes.setLocationRelativeTo(null);
+        pasajes.setVisible(true);
     }
 }
